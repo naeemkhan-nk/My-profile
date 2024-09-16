@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: aqua;
+}
+.container{
+    
+    width: 100%;
+    
+   height: auto;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap; /* Allows the cards to wrap if screen size is smaller */
+    gap: 20px; /* Adds space between the cards */
+    padding: 20px
+    
+    
+
+       
+}
+
+.card-view{
+    width: 400px;
+    height: auto;
+    background: lemonchiffon;
+    padding: 10px;
+    border-radius: 10px;    
+    box-shadow: 10px 15px 9px red;
+
+}
+
+.card-img{
+    width: 120px;
+    margin: auto;
+    margin-top: 10px;  
+}
+.profile{
+    width: 100px;
+    border-radius:50px;
+    box-shadow: 5px 7px 5px rgb(128, 170, 184);
+    border: 1px solid red;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    margin-top: 10px;
+}
+.button{
+    
+    margin-top: 20px;
+    text-align: center;  
+    margin-bottom: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: gray;
+    color: beige;
+    border-radius: 50px;
+    
+    
+
+}
+
+.button:hover a{
+    color: rgb(113, 43, 120);
+    transition: all 1s;
+}
+
+
+   
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon-view {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-list {
+    display: flex;
+    list-style: none;
+    gap: 25px; /* Adds space between icons */
+    margin-top: 20px;
+}
+
+.icon-list li {
+    display: flex;
+}
+
+.icon-list i {
+    font-size: 24px;
+    color: #333; /* Customize the color of the icons */
+}
+
+.icon-list li:hover i {
+    color: rgb(146, 101, 101); /* Changes color when hovering over the icon */
+
+    transition: all 1s;
+
+}
